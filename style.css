@@ -213,7 +213,7 @@ body {
     font-weight: bold;
 }
 .container_1_text a:hover, .container_3_text a:hover, .container_3_text_1 a:hover{
-    color: #0d6efd;
+    color: #0D65FDFF;
     text-decoration: none;
 }
 
@@ -276,7 +276,7 @@ body {
 
 
 @media (max-width: 768px) {
-    .col-mediaF{display: none}
+    .just_in_col{display: none}
     .container_1_text{
         padding: 15%;
     }
@@ -303,7 +303,7 @@ body {
 
 }
 @media (min-width: 768px) and (max-width: 992px){
-    .col-mediaF{display: none}
+    .just_in_col{display: none}
     .container_1{
         padding: 10%;
     }
@@ -349,26 +349,21 @@ body {
     padding-bottom: 4px;
 }
 
-.trending{
-    margin-top: 6%;
-    margin-bottom: 6%;
-}
-.trending a{
+
+.trending_container a{
     text-decoration: none;
     font-size: 18px;
+    margin-left: 20px;
 }
-.trending a:hover{
-    color: #0d6efd;
+.trending_container a:hover{
+    color: #0D65FDFF;
     text-decoration: none;
 }
 
-.trending h6{
-    color: dimgray;
+.trending_container h6{
+    color: gray;
     display: inline;
     font-size: 12px;
-}
-.trending_row{
-    margin-bottom: 3%;
 }
 
 .section-local{
@@ -388,7 +383,7 @@ body {
     text-decoration: none;
 }
 .local_row a:hover, .local_row_2 a:hover{
-    color: #0d6efd;
+    color: #0D65FDFF;
     text-decoration: none;
 }
 
@@ -457,7 +452,7 @@ body {
         padding-top: 3%;
     }
 
-    .trending {
+    .trending_container {
         padding-top: 70px;
     }
 
@@ -499,7 +494,7 @@ body {
         height: 10%;
     }
 
-    .trending {
+    .trending_container {
         padding-top: 90px;
     }
 
